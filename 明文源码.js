@@ -4,8 +4,8 @@ import { connect } from 'cloudflare:sockets';
 let userID = '';
 let proxyIP = '';
 //let sub = '';
-let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
-let subConfig = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvY29uZmlnL0FDTDRTU1JfT25saW5lX01pbmlfTXVsdGlNb2RlLmluaQ==');
+let subConverter = 'SUBAPI.CMLiussss.net';
+let subConfig = 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini';
 let subProtocol = 'https';
 let subEmoji = 'true';
 let socks5Address = '';
@@ -29,7 +29,7 @@ let addressesnotlsapi = [];
 let addressescsv = [];
 let DLS = 8;
 let remarkIndex = 1;//CSV备注所在列偏移量
-let FileName = atob('ZWRnZXR1bm5lbA==');
+let FileName = 'edgetunnel';
 let BotToken;
 let ChatID;
 let proxyhosts = [];
@@ -45,7 +45,7 @@ let proxyIPPool = [];
 let path = '/?ed=2560';
 let 动态UUID;
 let link = [];
-let banHosts = [atob('c3BlZWQuY2xvdWRmbGFyZS5jb20=')];
+let banHosts = ['speed.cloudflare.com'];
 export default {
 	async fetch(request, env, ctx) {
 		try {
